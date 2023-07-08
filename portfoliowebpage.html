@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    
+    #welcome-section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f1f1f1;
+    }
+
+    #projects {
+      padding: 20px;
+    }
+
+    .project-tile {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    #navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    #profile-link {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <a href="#welcome-section">Welcome</a>
+    <a href="#projects">Projects</a>
+    <a href="#profile-link" id="profile-link" target="_blank">Profile</a>
+  </nav>
+
+  <section id="welcome-section">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+
+  <section id="projects">
+    <div class="project-tile">
+      <h3>Vehicle Parking Management System</h3>
+      <p>Vehicle Parking Management System is a software solution designed to efficiently manage and automate the parking operations of a parking facility. It provides a centralized platform to monitor and control parking spaces, payments, vehicle entry and exit, and other related activities. The system helps optimize parking space utilization, improve security, reduce manual intervention, and streamline the overall parking process. It may include features such as ticketing, automated barriers, payment processing, real-time occupancy tracking, and reporting capabilities. Overall, the Vehicle Parking Management System aims to enhance the user experience, increase operational efficiency, and ensure smooth and organized parking operations. </p>
+      <a href="#" class="project-link">View Project</a>
+    </div>
+
+    <div class="project-tile">
+      <h3>Zero-Day Network Intrusion Detection</h3>
+      <p>Zero-Day Network Intrusion Detection refers to the capability of identifying and preventing cyber attacks and intrusions that exploit previously unknown vulnerabilities in software or network systems. It involves detecting and blocking threats in real-time before they can exploit zero-day vulnerabilities, which are unknown to the software vendor or security community. This type of intrusion detection system uses advanced techniques such as anomaly detection, behavioral analysis, machine learning, and threat intelligence to detect and mitigate zero-day attacks. By monitoring network traffic, analyzing patterns, and identifying suspicious activities, a Zero-Day Network Intrusion Detection system helps protect against emerging threats and minimize the potential damage caused by unknown vulnerabilities. </p>
+      <a href="#" class="project-link">View Project</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
